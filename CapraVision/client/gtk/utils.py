@@ -18,7 +18,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from gi.repository import Gtk, GdkPixbuf
-import Image
+from PIL import Image
 
 import os
 import StringIO
