@@ -22,5 +22,6 @@ Description : launch gtk vision client.
 """
 
 if __name__ == '__main__':
-    from CapraVision.client.gtk.maingtk import run
+    #from CapraVision.client.gtk.maingtk import run
+    from CapraVision.client.web.mainweb import run
     run()
